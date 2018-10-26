@@ -27,14 +27,14 @@ class Grid extends Component {
 
   render() {
     return (
-      <div style={{ textAlign: 'center', fontSize: '2rem' }}>
+      <div style={{ textAlign: 'center', fontSize: '1.5rem' }}>
         <Helmet>
           <title>服务端渲染出BUG的栅格页title</title>
           <meta name="description" content="话题列表页 meta标签" />
         </Helmet>
         <div>该页为服务端渲染时出BUG的栅格页</div>
       <div style={{
-        textAlign: 'left', fontSize: '2rem', display: 'inline-block', width: '60%',
+        textAlign: 'left', fontSize: '1.3rem', display: 'inline-block', width: '60%',
       }}
       >
         <div>1.查看网页源码会发现TypeError: Cannot read property gutter of undefined</div>

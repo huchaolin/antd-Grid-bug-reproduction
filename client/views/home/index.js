@@ -26,7 +26,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ textAlign: 'center', fontSize: '1.3rem' }}>
         <Helmet>
           <title>首页title</title>
           <meta name="description" content="首页 meta标签" />
