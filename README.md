@@ -4,5 +4,6 @@
 #npm i
 #npm run dev-client  
 #npm run-dev-server  
+(npm run lint 修正代码格式报错)
 #访问localhost:2222即为服务端渲染页面， 前端调试页面接口为localhost:8888  
 #开发过程中dev-client启动后， 再启动dev-server， 两个都要启动  
